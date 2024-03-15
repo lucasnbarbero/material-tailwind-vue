@@ -1,7 +1,7 @@
 {
   "name": "material-tailwind-vue",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "lucasnbarbero",
   "description": "A UI component library for Vue.js and Nuxt.js",
   "type": "module",
