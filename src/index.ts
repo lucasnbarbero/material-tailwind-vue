@@ -1,3 +1,4 @@
+import Button from "./components/button/Button.vue";
 import Spinner from "./components/spinner/Spinner.vue";
 
-export { Spinner };
+export { Button, Spinner };

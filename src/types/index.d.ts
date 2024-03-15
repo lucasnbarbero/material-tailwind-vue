@@ -1,3 +1,4 @@
+import { ButtonProps } from "./components/button";
 import { SpinnerProps } from "./components/spinner";
 
-export { SpinnerProps };
+export { ButtonProps, SpinnerProps };

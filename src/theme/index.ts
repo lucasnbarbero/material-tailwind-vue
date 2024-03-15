@@ -1,3 +1,4 @@
+import button from "./button";
 import spinner from "./spinner";
 
-export { spinner };
+export { button, spinner };
