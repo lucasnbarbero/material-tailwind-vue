@@ -1,7 +1,7 @@
 import { colors } from "../generic";
 
 export interface SpinnerProps {
-  color?: colors;
+  color?: "white" | colors;
   width?: number | string;
   height?: number | string;
 }

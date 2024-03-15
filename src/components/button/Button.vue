@@ -6,6 +6,7 @@
     :href="href"
     v-bind="$attrs"
   >
+    <Spinner :color="color" width="20" height="20" v-if="loading" />
     <slot />
   </component>
 </template>
@@ -18,6 +19,7 @@ import classNames from "classnames";
 import { button } from "../../theme";
 import type { ButtonProps } from "../../types";
 import { objectsToString } from "../../utils";
+import { Spinner } from "../..";
 
 const props = withDefaults(defineProps<ButtonProps>(), {
   color: "dark",

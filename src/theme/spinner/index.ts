@@ -4,8 +4,11 @@ const spinner = {
     animation: "animate-spin",
   },
   colors: {
+    white: {
+      color: "text-white",
+    },
     blue: {
-      color: "text-blue-500",
+      color: "text-blue-600",
     },
     dark: {
       color: "text-neutral-800",
@@ -14,19 +17,19 @@ const spinner = {
       color: "text-gray-500",
     },
     green: {
-      color: "text-green-500",
+      color: "text-green-600",
     },
     pink: {
-      color: "text-pink-500",
+      color: "text-pink-600",
     },
     purple: {
-      color: "text-purple-500",
+      color: "text-purple-600",
     },
     red: {
-      color: "text-red-500",
+      color: "text-red-600",
     },
     yellow: {
-      color: "text-yellow-500",
+      color: "text-yellow-600",
     },
   },
 };
