@@ -1,13 +1,11 @@
 <script lang="ts" setup>
-import { ButtonGroup, Button } from "./index";
+import { Badge, Button } from "./index";
 </script>
 
 <template>
   <div class="max-w-[1200px] mx-auto pt-20">
-    <ButtonGroup color="blue">
+    <Badge content="51" max="50" placement="bottom-end">
       <Button>Mi boton</Button>
-      <Button>Mi boton</Button>
-      <Button>Mi boton</Button>
-    </ButtonGroup>
+    </Badge>
   </div>
 </template>
