@@ -1,11 +1,38 @@
 <script lang="ts" setup>
-import { Badge, Button } from "./index";
+import { Avatar } from "./index";
 </script>
 
 <template>
   <div class="max-w-[1200px] mx-auto pt-20">
-    <Badge content="51" max="50" placement="bottom-end">
-      <Button>Mi boton</Button>
-    </Badge>
+    <Avatar
+      size="xs"
+      src="https://docs.material-tailwind.com/img/face-2.jpg"
+      alt="avatar"
+    />
+    <Avatar
+      size="sm"
+      src="https://docs.material-tailwind.com/img/face-2.jpg"
+      alt="avatar"
+    />
+    <Avatar
+      size="md"
+      src="https://docs.material-tailwind.com/img/face-2.jpg"
+      alt="avatar"
+    />
+    <Avatar
+      size="lg"
+      src="https://docs.material-tailwind.com/img/face-2.jpg"
+      alt="avatar"
+    />
+    <Avatar
+      size="xl"
+      src="https://docs.material-tailwind.com/img/face-2.jpg"
+      alt="avatar"
+    />
+    <Avatar
+      size="xxl"
+      src="https://docs.material-tailwind.com/img/face-2.jpg"
+      alt="avatar"
+    />
   </div>
 </template>
