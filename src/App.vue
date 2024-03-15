@@ -1,38 +1,14 @@
 <script lang="ts" setup>
-import { Avatar } from "./index";
+import { Typography } from "./index";
 </script>
 
 <template>
   <div class="max-w-[1200px] mx-auto pt-20">
-    <Avatar
-      size="xs"
-      src="https://docs.material-tailwind.com/img/face-2.jpg"
-      alt="avatar"
-    />
-    <Avatar
-      size="sm"
-      src="https://docs.material-tailwind.com/img/face-2.jpg"
-      alt="avatar"
-    />
-    <Avatar
-      size="md"
-      src="https://docs.material-tailwind.com/img/face-2.jpg"
-      alt="avatar"
-    />
-    <Avatar
-      size="lg"
-      src="https://docs.material-tailwind.com/img/face-2.jpg"
-      alt="avatar"
-    />
-    <Avatar
-      size="xl"
-      src="https://docs.material-tailwind.com/img/face-2.jpg"
-      alt="avatar"
-    />
-    <Avatar
-      size="xxl"
-      src="https://docs.material-tailwind.com/img/face-2.jpg"
-      alt="avatar"
-    />
+    <Typography variant="small" color="dark">
+      Material Tailwind is an easy to use components library for Tailwind CSS
+      and Material Design. It provides a simple way to customize your
+      components, you can change the colors, fonts, breakpoints and everything
+      you need.
+    </Typography>
   </div>
 </template>
